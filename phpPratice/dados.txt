@@ -1,2 +1,1 @@
-nome;idade123;131231
-31231;32131
+nome;idade
