@@ -15,8 +15,6 @@ if (isset($_GET["edit"])) {
 
     while ($linha = fgets($arq)) {
 
-        if (trim($linha) != "") {
-
             if ($i == $_GET["edit"]) {
 
                 $dados = explode(";", $linha);
@@ -27,7 +25,7 @@ if (isset($_GET["edit"])) {
             }
 
             $i++;
-        }
+
     }
 
     fclose($arq);
